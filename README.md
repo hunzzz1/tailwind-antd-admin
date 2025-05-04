@@ -30,7 +30,7 @@ pnpm dev
 以下是本项目的界面截图示例：
 
 ### 首页
-![首页](assets/home.png)
+![首页](https://github.com/hunzzz1/tailwind-antd-admin/blob/main/src/assets/home.png)
 
 ### 登录页
-![登录页](assets/login.png)
+![登录页](https://github.com/hunzzz1/tailwind-antd-admin/blob/main/src/assets/login.png)
