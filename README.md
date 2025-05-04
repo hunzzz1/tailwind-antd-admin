@@ -15,8 +15,8 @@
 
 ```bash
 # 克隆仓库
-GitHub 地址: https://github.com/hunzzz1/preline-vue-admin.git
-cd preline-vue-admin
+GitHub 地址: https://github.com/hunzzz1/tailwind-antd-admin.git
+cd tailwind-antd-admin
 
 # 安装依赖
 pnpm install
