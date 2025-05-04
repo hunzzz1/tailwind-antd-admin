@@ -1,0 +1,51 @@
+/* 覆盖antd 默认table样式 */
+
+.ant-input:focus{
+    box-shadow: none !important;
+}
+.ant-btn-primary{
+    box-shadow: none !important;
+}
+
+.ant-table-cell{
+    border-start-start-radius: 0 !important;
+    border-start-end-radius: 0 !important;
+    border-bottom: none !important;
+
+    font-weight: 500 !important;
+    font-size: 13px !important;
+}
+.ant-table-cell:before{
+    width: 0 !important;
+}
+.ant-table-thead >tr>th{
+    background: #f9fafb !important;
+    color: #6a7282 !important;
+    /*font-weight: 500 !important;*/
+    font-size: 12px !important;
+}
+/*:deep(.ant-table-tbody > .ant-table-row-hover > td){*/
+/*    background: #f9fafb !important;*/
+/*}*/
+table:hover,
+tr:hover,
+thead:hover {
+    background: none !important;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: #fff !important;
+}
+.ant-table-container::before{
+    box-shadow: none !important;
+}
+
+.ant-table-container::after{
+    box-shadow: none !important;
+}
+
+
+.ant-table-wrapper .ant-table-cell-fix-right {
+    position: sticky !important;
+    z-index: 2;
+    background: #ffffff !important;
+}
