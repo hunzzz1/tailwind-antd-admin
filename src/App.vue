@@ -1,15 +1,14 @@
 <script setup>
+import {computed} from 'vue'
 import {RouterView} from "vue-router";
-const appToken = {
-  "colorPrimary": "#030712",
-  "wireframe": false,
-  "colorPrimaryBg": "#e1e5ec",
-  'fontSize':13,
-}
+import {themeConfig} from "@/theme.js";
+import zh_CN from 'antdv-next/locale/zh_CN'
 </script>
 
 <template>
-  <a-config-provider :theme="{token: appToken} ">
+
+
+  <a-config-provider :theme="themeConfig" :locale="zh_CN">
     <RouterView/>
   </a-config-provider>
 </template>
